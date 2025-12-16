@@ -13,11 +13,10 @@ int main(){
     cin >> y;
     if(y<100){
         c = "Chopper";
-    }
     if(y<180 && y>=100){
         c = "Usopp";
     }
-    if(y>=180){
+    if(y>180){
         int q;
         cout <<"Enter your bounty: ";
         cin >> q;
@@ -29,10 +28,9 @@ int main(){
         }
 
     }
-}
-  if(x<=60 && x>25){
+    }
+if(x<=60 && x>25){
     int j;
-    cout << "Enter your bounty: ";
     cin >> j;
     if(j<= 500000000){
      c = "Franky";
@@ -40,11 +38,10 @@ int main(){
     if(j> 500000000){
         c = "Jinbe";
     }
-}
-
-  if(x>60){
+if(x>60){
     c = "Brook";
 }    
- 
- cout << "Your character = " << c;
+}
+ }
+ cout << c;
 }
